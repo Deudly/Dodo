@@ -1,8 +1,6 @@
 var Discord = require('discord.js');
 const client = new Discord.Client();
-var key = "";
-
-client.login(key);
+var key = "MjUxMDc1NTg0MzcxODUxMjY3.C8kbvQ.d_OmgXYcyves6QY2ED3NGOH1Uzc";
 
 client.on('ready', () => {
   console.log('Dodo is ready!');
@@ -15,8 +13,8 @@ client.on('message', message => {
       message.reply("Hey, im just a dodo and here you have a selfie of me!")
       randomDodo(message);
   }
-
 });
+client.login(key);
 
 function randomDodo(message){
     var num = Math.random();
