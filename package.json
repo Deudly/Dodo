@@ -1,0 +1,22 @@
+{
+  "name": "dodo",
+  "version": "1.0.0",
+  "description": "A Dodo Discord bot",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deudly/Dodo.git"
+  },
+  "author": "Deudly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deudly/Dodo/issues"
+  },
+  "homepage": "https://github.com/Deudly/Dodo#readme",
+  "dependencies": {
+    "discord.js": "^11.0.0"
+  }
+}
